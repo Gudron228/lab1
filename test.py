@@ -8,7 +8,7 @@ import numpy as np
 model = load_model('bmw_vs_mercedes.h5')
 
 IMG_SIZE = (128, 128)
-BATCH_SIZE = 32
+
 
 def classify_image(image_path):
     img = image.load_img(image_path, target_size=IMG_SIZE)
